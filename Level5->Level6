@@ -1,0 +1,9 @@
+Goal: Find the password in the file in the "inhere" directory with the following traits:
+1. Is human readable
+2. Is not executable
+3. Is exactly 1033 bytes in size.
+
+Solution: cd into the "inhere" directory and then use the find command like so: "find -size 1033c -readable -not -executable".  This will give the file ./maybehere07/.file2, which contains our password.
+Note:  This was my first time using the find command like this, super cool!
+
+Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
