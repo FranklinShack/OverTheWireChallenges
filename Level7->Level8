@@ -1,0 +1,6 @@
+Goal:  Find the password next to the word "millionth" in data.txt
+
+Solution:  A quick grep will get us the password.
+Command: "grep millionth data.txt"
+
+Password: cvX2JJa4CFALtqS87jk27qwqGhBM9plV
