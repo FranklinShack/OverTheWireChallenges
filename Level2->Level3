@@ -1,0 +1,6 @@
+Goal:  Grab the password from a file called "spaces in this filename"
+
+Solution:  Since there are spaces in the filename, we must do "cat 'spaces in this filename'"
+
+Password:
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
