@@ -1,0 +1,5 @@
+Goal: Grab the password from a hidden file in the "inhere" directory.
+
+Solution:  cd into the inhere directory, then do "ls -a" to show the hidden file, '.hidden'.  A quick cat later and we have the password.
+
+Password: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
