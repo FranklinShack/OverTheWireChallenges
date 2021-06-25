@@ -1,0 +1,5 @@
+Goal:  Get the password for the next level from the file called '-' in the home directory.
+
+Solution:  Since the hyphen denotes a flag, we cannot simply do "cat -".  Instead, we must do "cat ./-".
+
+Password: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
