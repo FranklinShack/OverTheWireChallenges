@@ -1,0 +1,5 @@
+Goal:  Grab the only human readable file in the inhere directory.
+
+Solution:  cd into the inhere directory, then do "file ./*" to identify ./-file07 as the only file with ASCII text.  A quick cat then gets us the password.
+
+Password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
