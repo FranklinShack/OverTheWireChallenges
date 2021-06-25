@@ -1,0 +1,9 @@
+Goal:  Find the password somewhere on the server with the following traits:
+1. Is owned by user bandit7
+2. Is owned by group bandit6
+3. Is exactly 33 bytes in size
+
+Solution:  When using the find command with just parameters for the traits, we are flooded with errors.  So, we need to redirect errors to /dev/null.  To do so, we can add the flag "-type f 2> /dev/null"  to have a complete find command that looks like "find / -group bandit6 -user bandit7 -size 33c -type f 2> /dev/null"
+This gets us the file /var/lib/dpkg/info/bandit7.password, which contains our password.
+
+Password: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
