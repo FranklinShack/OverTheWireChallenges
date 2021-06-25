@@ -1,0 +1,6 @@
+Goal:  Connect to the server bandit.labs.overthewire.org with port 2220 (Not 2200) and use the user/pass bandit0
+
+Solution:
+Use the command "ssh bandit0@bandit.labs.overthewire.org -p 2220" then enter bandit0 when it asks for a password.
+
+Nice and simple.
