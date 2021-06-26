@@ -1,1 +1,7 @@
+Goal:  Find the password for the next level.
 
+Solution:  Upon first glance it looks like there is nothing in the directory.  However, a quick ls -a will show us that there is a folder called '.backup'.
+Navigating into this folder and calling ls will show us that there is a file called "bookmarks.html".  The file has a whole lot of text in it, so a quick grep for the string "password" will quickly find our password for us.
+Command: grep password ./.backup/bookmarks.html
+
+Password: rioGegei8m
