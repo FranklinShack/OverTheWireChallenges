@@ -1,0 +1,6 @@
+Goal:  The password is the only line that occurs once in data.txt
+
+Solution: Use the sort command to sort the data, then pipe the output into uniq using the flag -c to count reoccurences.  Then pipe that into grep to find the only line with 1 reoccurence.
+Command: sort data.txt | uniq -c | grep "1 "
+
+Password: UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
