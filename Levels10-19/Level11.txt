@@ -1,0 +1,6 @@
+Goal:  Grab the password from data.txt, however the text has been rotate by 13 letters.
+
+Solution:  Use the tr command to rotate the text back
+Command: cat data.txt | tr '[a-z]' '[n-za-m]' | tr '[A-Z]' '[N-ZA-M]'
+
+Password: 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
