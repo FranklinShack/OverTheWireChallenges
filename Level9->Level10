@@ -1,0 +1,6 @@
+Goal:  Grab the password from one of the few human readable lines with several "=" in it.
+
+Solution:  Pipe the output of "strings data.txt" into "grep =="
+Command: "strings data.txt | grep =="
+
+Password: truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
