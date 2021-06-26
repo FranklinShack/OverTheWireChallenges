@@ -1,0 +1,6 @@
+Goal: Grab the password from the base64 encoded data.txt
+
+Solution:  Decode the base64 file using the -d flag.
+Command: base64 -d data.txt
+
+Password: IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
